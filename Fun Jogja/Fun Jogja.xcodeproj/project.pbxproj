@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCCC54171FD00F9D0045018B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCC54161FD00F9D0045018B /* AppDelegate.swift */; };
+		DCCC54191FD00F9D0045018B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCC54181FD00F9D0045018B /* ViewController.swift */; };
+		DCCC541C1FD00F9D0045018B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCCC541A1FD00F9D0045018B /* Main.storyboard */; };
+		DCCC541E1FD00F9D0045018B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCCC541D1FD00F9D0045018B /* Assets.xcassets */; };
+		DCCC54211FD00F9D0045018B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCCC541F1FD00F9D0045018B /* LaunchScreen.storyboard */; };
+		DCCC542C1FD00F9E0045018B /* Fun_JogjaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCC542B1FD00F9E0045018B /* Fun_JogjaTests.swift */; };
+		DCCC54371FD00F9E0045018B /* Fun_JogjaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCC54361FD00F9E0045018B /* Fun_JogjaUITests.swift */; };
+		DCCC54451FD010DA0045018B /* MAPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCC54441FD010DA0045018B /* MAPViewController.swift */; };
+		DCCC54471FD010E80045018B /* WEBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCC54461FD010E80045018B /* WEBViewController.swift */; };
+		DCCC54491FD011030045018B /* KotaWisata.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCC54481FD011030045018B /* KotaWisata.swift */; };
+		DCCC544B1FD012200045018B /* 6ca4ee7d75f2714fa46340d56cf70c16--mount-merapi-iphone--wallpaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DCCC544A1FD0121F0045018B /* 6ca4ee7d75f2714fa46340d56cf70c16--mount-merapi-iphone--wallpaper.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCCC54281FD00F9E0045018B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCCC540B1FD00F9D0045018B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCCC54121FD00F9D0045018B;
+			remoteInfo = "Fun Jogja";
+		};
+		DCCC54331FD00F9E0045018B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCCC540B1FD00F9D0045018B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCCC54121FD00F9D0045018B;
+			remoteInfo = "Fun Jogja";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DCCC54131FD00F9D0045018B /* Fun Jogja.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fun Jogja.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCCC54161FD00F9D0045018B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DCCC54181FD00F9D0045018B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DCCC541B1FD00F9D0045018B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCCC541D1FD00F9D0045018B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCCC54201FD00F9D0045018B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DCCC54221FD00F9D0045018B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCCC54271FD00F9E0045018B /* Fun JogjaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fun JogjaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCCC542B1FD00F9E0045018B /* Fun_JogjaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fun_JogjaTests.swift; sourceTree = "<group>"; };
+		DCCC542D1FD00F9E0045018B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCCC54321FD00F9E0045018B /* Fun JogjaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fun JogjaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCCC54361FD00F9E0045018B /* Fun_JogjaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fun_JogjaUITests.swift; sourceTree = "<group>"; };
+		DCCC54381FD00F9E0045018B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCCC54441FD010DA0045018B /* MAPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAPViewController.swift; sourceTree = "<group>"; };
+		DCCC54461FD010E80045018B /* WEBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WEBViewController.swift; sourceTree = "<group>"; };
+		DCCC54481FD011030045018B /* KotaWisata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KotaWisata.swift; sourceTree = "<group>"; };
+		DCCC544A1FD0121F0045018B /* 6ca4ee7d75f2714fa46340d56cf70c16--mount-merapi-iphone--wallpaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "6ca4ee7d75f2714fa46340d56cf70c16--mount-merapi-iphone--wallpaper.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCCC54101FD00F9D0045018B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCCC54241FD00F9E0045018B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCCC542F1FD00F9E0045018B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCCC540A1FD00F9D0045018B = {
+			isa = PBXGroup;
+			children = (
+				DCCC54151FD00F9D0045018B /* Fun Jogja */,
+				DCCC542A1FD00F9E0045018B /* Fun JogjaTests */,
+				DCCC54351FD00F9E0045018B /* Fun JogjaUITests */,
+				DCCC54141FD00F9D0045018B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCCC54141FD00F9D0045018B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCCC54131FD00F9D0045018B /* Fun Jogja.app */,
+				DCCC54271FD00F9E0045018B /* Fun JogjaTests.xctest */,
+				DCCC54321FD00F9E0045018B /* Fun JogjaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCCC54151FD00F9D0045018B /* Fun Jogja */ = {
+			isa = PBXGroup;
+			children = (
+				DCCC544A1FD0121F0045018B /* 6ca4ee7d75f2714fa46340d56cf70c16--mount-merapi-iphone--wallpaper.jpg */,
+				DCCC54161FD00F9D0045018B /* AppDelegate.swift */,
+				DCCC54181FD00F9D0045018B /* ViewController.swift */,
+				DCCC541A1FD00F9D0045018B /* Main.storyboard */,
+				DCCC54461FD010E80045018B /* WEBViewController.swift */,
+				DCCC541D1FD00F9D0045018B /* Assets.xcassets */,
+				DCCC541F1FD00F9D0045018B /* LaunchScreen.storyboard */,
+				DCCC54221FD00F9D0045018B /* Info.plist */,
+				DCCC54441FD010DA0045018B /* MAPViewController.swift */,
+				DCCC54481FD011030045018B /* KotaWisata.swift */,
+			);
+			path = "Fun Jogja";
+			sourceTree = "<group>";
+		};
+		DCCC542A1FD00F9E0045018B /* Fun JogjaTests */ = {
+			isa = PBXGroup;
+			children = (
+				DCCC542B1FD00F9E0045018B /* Fun_JogjaTests.swift */,
+				DCCC542D1FD00F9E0045018B /* Info.plist */,
+			);
+			path = "Fun JogjaTests";
+			sourceTree = "<group>";
+		};
+		DCCC54351FD00F9E0045018B /* Fun JogjaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DCCC54361FD00F9E0045018B /* Fun_JogjaUITests.swift */,
+				DCCC54381FD00F9E0045018B /* Info.plist */,
+			);
+			path = "Fun JogjaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCCC54121FD00F9D0045018B /* Fun Jogja */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCCC543B1FD00F9E0045018B /* Build configuration list for PBXNativeTarget "Fun Jogja" */;
+			buildPhases = (
+				DCCC540F1FD00F9D0045018B /* Sources */,
+				DCCC54101FD00F9D0045018B /* Frameworks */,
+				DCCC54111FD00F9D0045018B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fun Jogja";
+			productName = "Fun Jogja";
+			productReference = DCCC54131FD00F9D0045018B /* Fun Jogja.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCCC54261FD00F9E0045018B /* Fun JogjaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCCC543E1FD00F9E0045018B /* Build configuration list for PBXNativeTarget "Fun JogjaTests" */;
+			buildPhases = (
+				DCCC54231FD00F9E0045018B /* Sources */,
+				DCCC54241FD00F9E0045018B /* Frameworks */,
+				DCCC54251FD00F9E0045018B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCCC54291FD00F9E0045018B /* PBXTargetDependency */,
+			);
+			name = "Fun JogjaTests";
+			productName = "Fun JogjaTests";
+			productReference = DCCC54271FD00F9E0045018B /* Fun JogjaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DCCC54311FD00F9E0045018B /* Fun JogjaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCCC54411FD00F9E0045018B /* Build configuration list for PBXNativeTarget "Fun JogjaUITests" */;
+			buildPhases = (
+				DCCC542E1FD00F9E0045018B /* Sources */,
+				DCCC542F1FD00F9E0045018B /* Frameworks */,
+				DCCC54301FD00F9E0045018B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCCC54341FD00F9E0045018B /* PBXTargetDependency */,
+			);
+			name = "Fun JogjaUITests";
+			productName = "Fun JogjaUITests";
+			productReference = DCCC54321FD00F9E0045018B /* Fun JogjaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCCC540B1FD00F9D0045018B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = Arjuna;
+				TargetAttributes = {
+					DCCC54121FD00F9D0045018B = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					DCCC54261FD00F9E0045018B = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DCCC54121FD00F9D0045018B;
+					};
+					DCCC54311FD00F9E0045018B = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DCCC54121FD00F9D0045018B;
+					};
+				};
+			};
+			buildConfigurationList = DCCC540E1FD00F9D0045018B /* Build configuration list for PBXProject "Fun Jogja" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCCC540A1FD00F9D0045018B;
+			productRefGroup = DCCC54141FD00F9D0045018B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCCC54121FD00F9D0045018B /* Fun Jogja */,
+				DCCC54261FD00F9E0045018B /* Fun JogjaTests */,
+				DCCC54311FD00F9E0045018B /* Fun JogjaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCCC54111FD00F9D0045018B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCCC54211FD00F9D0045018B /* LaunchScreen.storyboard in Resources */,
+				DCCC544B1FD012200045018B /* 6ca4ee7d75f2714fa46340d56cf70c16--mount-merapi-iphone--wallpaper.jpg in Resources */,
+				DCCC541E1FD00F9D0045018B /* Assets.xcassets in Resources */,
+				DCCC541C1FD00F9D0045018B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCCC54251FD00F9E0045018B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCCC54301FD00F9E0045018B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCCC540F1FD00F9D0045018B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCCC54191FD00F9D0045018B /* ViewController.swift in Sources */,
+				DCCC54171FD00F9D0045018B /* AppDelegate.swift in Sources */,
+				DCCC54451FD010DA0045018B /* MAPViewController.swift in Sources */,
+				DCCC54471FD010E80045018B /* WEBViewController.swift in Sources */,
+				DCCC54491FD011030045018B /* KotaWisata.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCCC54231FD00F9E0045018B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCCC542C1FD00F9E0045018B /* Fun_JogjaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCCC542E1FD00F9E0045018B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCCC54371FD00F9E0045018B /* Fun_JogjaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCCC54291FD00F9E0045018B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCCC54121FD00F9D0045018B /* Fun Jogja */;
+			targetProxy = DCCC54281FD00F9E0045018B /* PBXContainerItemProxy */;
+		};
+		DCCC54341FD00F9E0045018B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCCC54121FD00F9D0045018B /* Fun Jogja */;
+			targetProxy = DCCC54331FD00F9E0045018B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DCCC541A1FD00F9D0045018B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCCC541B1FD00F9D0045018B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DCCC541F1FD00F9D0045018B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCCC54201FD00F9D0045018B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCCC54391FD00F9E0045018B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DCCC543A1FD00F9E0045018B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCCC543C1FD00F9E0045018B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Fun Jogja/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.developermuslim.Fun-Jogja";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCCC543D1FD00F9E0045018B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Fun Jogja/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.developermuslim.Fun-Jogja";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DCCC543F1FD00F9E0045018B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Fun JogjaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.developermuslim.Fun-JogjaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fun Jogja.app/Fun Jogja";
+			};
+			name = Debug;
+		};
+		DCCC54401FD00F9E0045018B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Fun JogjaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.developermuslim.Fun-JogjaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fun Jogja.app/Fun Jogja";
+			};
+			name = Release;
+		};
+		DCCC54421FD00F9E0045018B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Fun JogjaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.developermuslim.Fun-JogjaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fun Jogja";
+			};
+			name = Debug;
+		};
+		DCCC54431FD00F9E0045018B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Fun JogjaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.developermuslim.Fun-JogjaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fun Jogja";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCCC540E1FD00F9D0045018B /* Build configuration list for PBXProject "Fun Jogja" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCCC54391FD00F9E0045018B /* Debug */,
+				DCCC543A1FD00F9E0045018B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCCC543B1FD00F9E0045018B /* Build configuration list for PBXNativeTarget "Fun Jogja" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCCC543C1FD00F9E0045018B /* Debug */,
+				DCCC543D1FD00F9E0045018B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCCC543E1FD00F9E0045018B /* Build configuration list for PBXNativeTarget "Fun JogjaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCCC543F1FD00F9E0045018B /* Debug */,
+				DCCC54401FD00F9E0045018B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCCC54411FD00F9E0045018B /* Build configuration list for PBXNativeTarget "Fun JogjaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCCC54421FD00F9E0045018B /* Debug */,
+				DCCC54431FD00F9E0045018B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCCC540B1FD00F9D0045018B /* Project object */;
+}
